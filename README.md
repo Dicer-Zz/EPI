@@ -18,7 +18,7 @@ python ./preprocess.py
 
 Regarding the other datasets mentioned in our paper, you can specify them in the command line arguments, and they will be automatically downloaded from Hugging Face.
 
-Structure after processing the data:
+Data structure after processing the data:
 ```
 ./data
 ├── ag
@@ -53,11 +53,11 @@ transformers: 4.23.1
 datasets: 2.1.0
 ```
 
-We recommend that you create a new Python environment and install the required packages manually. We also provide a list of all packages and their versions in ./package-list.txt for checking environment issues.
+We recommend that you create a new conda or python environment and install the required packages manually. We also provide a list of all packages and their versions in `./package-list.txt` for checking environment issues.
 
 ## Fine-tuning
 
-We provide a run script ./run.py that you can use by running the following command:
+We provide a run script `./run.py` that you can use by running the following command:
 
 ```sh
 python run.py \
